@@ -41,8 +41,8 @@ do
 done
 
 # shortcut files (.desktop) are restored
-mv ~/Documents/desktop/* ~/Desktop		2>/dev/null
-rmdir ~/Documents/desktop				2>/dev/null
+mv ~/Documents/desktop/* ~/Desktop
+rmdir ~/Documents/desktop
 
 # lists the top 10 files in terms of size
 du -h ~/* | sort -hr |head -n 10 > largest_files.txt;
